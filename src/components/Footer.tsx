@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-background border-t border-border py-12">
@@ -15,18 +17,18 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Services</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#services" className="hover:text-primary transition-colors">Network Optimization</a></li>
-              <li><a href="#services" className="hover:text-primary transition-colors">Digital Transformation</a></li>
-              <li><a href="#services" className="hover:text-primary transition-colors">Security Consulting</a></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Network Optimization</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Digital Transformation</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Security Consulting</Link></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold text-foreground mb-4">Company</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#expertise" className="hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Careers</a></li>
+              <li><Link to="/about" className="hover:text-primary transition-colors">About Us</Link></li>
+              <li><Link to="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
+              <li><Link to="#" className="hover:text-primary transition-colors">Careers</Link></li>
             </ul>
           </div>
           

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-telecom.jpg";
 
 const Hero = () => {
@@ -25,13 +26,17 @@ const Hero = () => {
             Expert telecommunications consulting for modern enterprises. We transform complex networks into strategic assets.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="text-lg">
-              Start Your Project
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg">
-              Learn More
-            </Button>
+            <Link to="/contact">
+              <Button size="lg" className="text-lg">
+                Start Your Project
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
+            <Link to="/about">
+              <Button size="lg" variant="outline" className="text-lg">
+                Learn More
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

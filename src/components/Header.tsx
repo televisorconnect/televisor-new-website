@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,24 +10,26 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center">
             <h1 className="text-2xl font-serif font-semibold text-navy">
               Televisor Connect
             </h1>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#services" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/services" className="text-foreground hover:text-primary transition-colors">
               Services
-            </a>
-            <a href="#expertise" className="text-foreground hover:text-primary transition-colors">
-              Expertise
-            </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+            </Link>
+            <Link to="/about" className="text-foreground hover:text-primary transition-colors">
+              About
+            </Link>
+            <Link to="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact
-            </a>
-            <Button>Get Started</Button>
+            </Link>
+            <Link to="/contact">
+              <Button>Get Started</Button>
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -42,28 +45,30 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="md:hidden pt-4 pb-2 flex flex-col gap-4">
-            <a
-              href="#services"
+            <Link
+              to="/services"
               className="text-foreground hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Services
-            </a>
-            <a
-              href="#expertise"
+            </Link>
+            <Link
+              to="/about"
               className="text-foreground hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Expertise
-            </a>
-            <a
-              href="#contact"
+              About
+            </Link>
+            <Link
+              to="/contact"
               className="text-foreground hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
-            </a>
-            <Button className="w-full">Get Started</Button>
+            </Link>
+            <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
+              <Button className="w-full">Get Started</Button>
+            </Link>
           </nav>
         )}
       </div>
