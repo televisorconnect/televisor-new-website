@@ -1,36 +1,36 @@
 import { Card } from "@/components/ui/card";
-import { Network, Workflow, Shield, Zap, Cloud, Settings } from "lucide-react";
+import { FileText, Users, Shield, CheckCircle, Bell, Scale } from "lucide-react";
 
 const services = [
   {
-    icon: Network,
-    title: "Network Optimization",
-    description: "Maximize performance and reliability of your telecommunications infrastructure with expert analysis and strategic improvements.",
+    icon: FileText,
+    title: "Regulatory Compliance",
+    description: "Keep track of regulatory policy developments in licensing and compliance areas. We provide compliance trackers for various licenses and authorizations.",
   },
   {
-    icon: Cloud,
-    title: "Digital Transformation",
-    description: "Navigate the transition to modern cloud-based communications with comprehensive planning and implementation support.",
+    icon: Users,
+    title: "Authorization & Approvals",
+    description: "Obtain and support authorizations/approvals from DoT, TRAI, TEC, and C-DOT officials. Represent your company interests as a consultant.",
+  },
+  {
+    icon: Scale,
+    title: "Policy Advisory",
+    description: "Prepare draft responses for policy matters, license fee issues, and show cause notices. Expert guidance on Telecommunications Act, 2023.",
+  },
+  {
+    icon: Bell,
+    title: "Regulatory Intelligence",
+    description: "Keep you apprised of new opportunities and regulatory changes. Share circulars and new licensing matters along with detailed analysis.",
   },
   {
     icon: Shield,
-    title: "Security Consulting",
-    description: "Protect your communications infrastructure with advanced security assessments and compliance guidance.",
+    title: "Security Audit Support",
+    description: "ISO-27001 compliance and MBSS alignment. Handle security audits along with technical team during DoT statutory audits.",
   },
   {
-    icon: Workflow,
-    title: "System Integration",
-    description: "Seamlessly connect disparate systems and platforms for unified, efficient telecommunications operations.",
-  },
-  {
-    icon: Zap,
-    title: "Performance Analytics",
-    description: "Gain actionable insights with comprehensive monitoring and reporting of your network performance.",
-  },
-  {
-    icon: Settings,
-    title: "Infrastructure Design",
-    description: "Build future-ready telecommunications systems with scalable architecture and cutting-edge technology.",
+    icon: CheckCircle,
+    title: "License Fee Assessment",
+    description: "Regulatory and policy support in license fee assessment, technical inspections, and strategy for seeking new authorizations.",
   },
 ];
 
@@ -40,10 +40,11 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4">
-            Our Services
+            Our Core Services
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive telecommunications consulting tailored to your business needs
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Comprehensive regulatory consulting services for authorizations, compliance management, 
+            and strategic guidance under India's evolving telecommunications framework.
           </p>
         </div>
 

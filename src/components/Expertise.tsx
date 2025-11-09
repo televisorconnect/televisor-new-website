@@ -1,8 +1,8 @@
 const stats = [
-  { number: "15+", label: "Years Experience" },
-  { number: "200+", label: "Projects Delivered" },
-  { number: "50+", label: "Enterprise Clients" },
-  { number: "99.9%", label: "Client Satisfaction" },
+  { number: "23+", label: "Years Experience" },
+  { number: "DoT", label: "Liaison Expertise" },
+  { number: "TRAI", label: "Regulatory Focus" },
+  { number: "MSMEs", label: "Supporting Growth" },
 ];
 
 const Expertise = () => {
@@ -12,26 +12,30 @@ const Expertise = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6">
-              Expertise You Can Trust
+              Key Expertise
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              With over 15 years of experience in telecommunications consulting, Televisor Connect has helped businesses worldwide transform their communication infrastructure.
+              With over 23 years of experience in India's telecom sector, we bring a historical perspective on legal, regulatory and policy regime and its evolution.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Our team of certified professionals brings deep technical knowledge combined with strategic business insight to deliver solutions that drive real results.
+              Rich and diversified experience in leading organisations including Reliance Communications, Viom Networks, Bharti Airtel, and Tata Communications.
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                <p className="text-foreground">Industry-leading certifications and partnerships</p>
+                <p className="text-foreground">Extensive liaison experience with DoT, TRAI, BSNL, CDOT, TEC and DoT field units</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                <p className="text-foreground">Proven track record across multiple sectors</p>
+                <p className="text-foreground">Strong understanding of Telecommunications Act, 2023 and authorization rules</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                <p className="text-foreground">Commitment to innovation and best practices</p>
+                <p className="text-foreground">Proven track record in handling complex regulatory mandates</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-primary mt-2" />
+                <p className="text-foreground">Industry experts available for license fee assessment and deduction verification</p>
               </div>
             </div>
           </div>

@@ -17,8 +17,8 @@ const ServicesPage = () => {
                 Our Services
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Comprehensive telecommunications consulting services designed to optimize your infrastructure, 
-                enhance security, and drive digital transformation.
+                Comprehensive regulatory consulting services for authorizations, compliance management, 
+                and strategic guidance under India's evolving telecommunications framework.
               </p>
             </div>
           </div>

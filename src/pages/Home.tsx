@@ -20,7 +20,7 @@ const Home = () => {
                 Why Choose Televisor Connect?
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                We deliver cutting-edge telecommunications solutions that drive business growth
+                We deliver expert regulatory consulting that ensures compliance and enables growth
               </p>
             </div>
             
@@ -30,10 +30,10 @@ const Home = () => {
                   <Network className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-2xl font-serif font-semibold mb-3 text-navy">
-                  Expert Solutions
+                  Deep Expertise
                 </h3>
                 <p className="text-muted-foreground">
-                  15+ years of telecommunications expertise across diverse industries
+                  23+ years in India's telecom regulatory and policy landscape
                 </p>
               </div>
               
@@ -42,10 +42,10 @@ const Home = () => {
                   <Shield className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-2xl font-serif font-semibold mb-3 text-navy">
-                  Proven Results
+                  Trusted Partner
                 </h3>
                 <p className="text-muted-foreground">
-                  200+ successful projects with 99.9% client satisfaction
+                  Extensive liaison experience with DoT, TRAI, and regulatory bodies
                 </p>
               </div>
               
@@ -54,10 +54,10 @@ const Home = () => {
                   <Zap className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-2xl font-serif font-semibold mb-3 text-navy">
-                  Future-Ready
+                  Act 2023 Ready
                 </h3>
                 <p className="text-muted-foreground">
-                  Innovative strategies designed for tomorrow's challenges
+                  Expert guidance on Telecommunications Act, 2023 and new authorization regime
                 </p>
               </div>
             </div>

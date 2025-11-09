@@ -20,10 +20,11 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-navy mb-6 leading-tight">
-            Connecting Your Business to the Future
+            Telecom Regulatory, Licensing & Policy Consulting
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            Expert telecommunications consulting for modern enterprises. We transform complex networks into strategic assets.
+            Expert policy, advisory and liaison solutions for authorizations, regulatory approvals, 
+            and compliance management across India's telecom and ICT ecosystem.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/contact">

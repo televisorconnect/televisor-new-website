@@ -17,7 +17,7 @@ const Contact = () => {
                 Contact Us
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Ready to transform your telecommunications infrastructure? Get in touch with our team of experts.
+                Ready to navigate India's telecom regulatory landscape? Get in touch with our team of experts.
               </p>
             </div>
           </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Email</h3>
                 <p className="text-muted-foreground text-sm">
-                  contact@televisorconnect.com
+                  deepakary@gmail.com
                 </p>
               </Card>
               
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Phone</h3>
                 <p className="text-muted-foreground text-sm">
-                  +1 (555) 123-4567
+                  +91 98115 10831
                 </p>
               </Card>
               
@@ -53,7 +53,7 @@ const Contact = () => {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Location</h3>
                 <p className="text-muted-foreground text-sm">
-                  New York, NY
+                  India
                 </p>
               </Card>
               
@@ -61,9 +61,9 @@ const Contact = () => {
                 <div className="inline-flex p-3 bg-blue-light rounded-full mb-4">
                   <Clock className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">Hours</h3>
+                <h3 className="font-semibold text-foreground mb-2">Contact Person</h3>
                 <p className="text-muted-foreground text-sm">
-                  Mon-Fri: 9AM-6PM EST
+                  Deepak Arya
                 </p>
               </Card>
             </div>
