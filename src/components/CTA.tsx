@@ -23,8 +23,8 @@ const CTA = () => {
             </Button>
             <Button 
               size="lg" 
-              variant="outline"
-              className="text-lg border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10"
+              variant="secondary"
+              className="text-lg"
             >
               <Phone className="mr-2 h-5 w-5" />
               Schedule a Call
@@ -33,11 +33,11 @@ const CTA = () => {
           <div className="border-t border-primary-foreground/20 pt-8 space-y-2">
             <p className="opacity-75">
               <Mail className="inline h-4 w-4 mr-2" />
-              contact@televisorconnect.com
+              televisorconnect@gmail.com
             </p>
             <p className="opacity-75">
               <Phone className="inline h-4 w-4 mr-2" />
-              +1 (555) 123-4567
+              +91 98115 10831
             </p>
           </div>
         </div>
