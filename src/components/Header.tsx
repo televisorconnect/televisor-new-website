@@ -12,9 +12,9 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="Televisor Connect Logo" className="h-12 w-auto" />
+            <img src={logo} alt="TeleVisor Connect Logo" className="h-10 w-auto" />
             <h1 className="text-2xl font-serif font-semibold text-navy">
-              Televisor Connect
+              TeleVisor Connect
             </h1>
           </Link>
 
